@@ -1,0 +1,16 @@
+{
+    "name": "GMC Pvt. Ltd",
+    "short_name": "GMC World ",
+    "background_color": "#e4236f",
+    "display": "standalone",
+    "orientation": "portrait",
+    "start_url": "./index.html",
+    "discription":"A new GMC",
+    "icons": [
+        {
+          "src": "../assets/favicon/icon.png",
+          "sizes": "512x512",
+          "type": "image/png"
+        }
+    ]
+  }
