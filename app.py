@@ -56,7 +56,7 @@ def admin():
    if request.method=='POST':
        name = request.form['name']
        password = request.form['password']
-       if name == 'Deepanshu' or password == 'Deepu@291':
+       if name == 'Deepanshu' and password == 'Deepu@291':
           users = User.query.all() 
           return render_template('admin.html', users=users)
        else:
